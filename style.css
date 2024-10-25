@@ -10,10 +10,6 @@ body {
     background-color: #1F2937;
 }
 
-.header {
-
-}
-
 .header .logo {
     font-size: 24px;
     color: #F9FAF8;
@@ -55,7 +51,7 @@ a {
     font-size: 18px;
 }
 
-img {
+.headingImg {
     width: 550px;
     height: 220px;
     margin: 100px 170px 100px 10px;
@@ -73,11 +69,70 @@ button {
 }
 
 .text-container {
-    margin: 100px 0px 0px 170px;
+    margin: 100px 0px 100px 170px;
     width: 500px;
 }
 
 .container {
     display: flex;
     justify-content: space-between;
+}
+
+.information-board .title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    margin: 60px;
+}
+
+.butterfly {
+    width: 150px;
+    border-radius: 10px;
+    margin: 0 25px 0 0;
+}
+
+.card img {
+    width: 150px;
+    border-radius: 10px;
+    margin: 0 50px 0 0;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+.card p {
+    width: 150px;
+    text-align: center;
+    color: gray;
+    margin-top: 10px;
+}
+
+.card {
+    margin: 0 0 100px 0;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 100px 150px;
+}
+
+.quote-section .text {
+    font-size: 36px;
+    color: #1F2937;
+    font: italic normal 36px 'light italic';
+    text-align: center;
+}
+
+.quote-section .author {
+    font-size: 26px;
+    color: black;
+    text-align: end;
+    font-weight: 900;
+    margin-top: 20px;
+    
+    padding-right: 30px;
 }

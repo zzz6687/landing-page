@@ -21,6 +21,7 @@ ul {
     list-style-type: none;
     margin: 25px 170px;
     padding: 0;
+    min-width: 425.3px;
 }
 
 li {
@@ -29,7 +30,7 @@ li {
 }
 
 a {
-    color: gray;
+    color: #CECDCD;
     text-decoration: none;
     font-size: 18px;
 }
@@ -47,7 +48,7 @@ a {
 
 .text {
     margin-top: 10px;
-    color: gray;
+    color: #CECDCD;
     font-size: 18px;
 }
 
@@ -133,6 +134,42 @@ button {
     text-align: end;
     font-weight: 900;
     margin-top: 20px;
-    
     padding-right: 30px;
+}
+
+.SignUpContainer {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 130px;
+    padding: 40px 80px;
+    border-radius: 10px;
+}
+
+.SignUpContainer .title {
+    font-size: 30px;
+}
+
+.SignUpContainer .text {
+    color: #E5E7EB;
+}
+
+.SignUpContainer button {
+    font-size: 18px;
+    font-weight: 400;
+    border: white 2px solid;
+    min-width: 120px;
+    min-height: 35px;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+.footer p {
+    color: #D6D6D6;
+    font-size: 14px;
+    padding: 15px 0 15px 0;
 }
